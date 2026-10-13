@@ -1,0 +1,20 @@
+# secrets & local-only files
+GLMSecret.txt
+GLMProxySecret.txt
+*.txt.local
+.env
+
+# ASO / audit confidential
+keytext*.md
+COMPETITOR_REPORT.md
+app_audit*.md
+improvement_plan_*.md
+
+# macOS / Xcode
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip

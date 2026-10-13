@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015F9E5FC628D63E22F787EE /* ContactSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F88A7BF538FF5A48BD87AE /* ContactSupportView.swift */; };
+		06099CFB39D96CDAF0FD6527 /* DrawGuardResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49835FB72D6CCA9A4BC558C3 /* DrawGuardResultCard.swift */; };
+		0E3BB90BE03A996F02351CF1 /* HealthKitInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278E90A48832777FAA80C0B /* HealthKitInfoView.swift */; };
+		0E65458DE919354285685FC4 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2257844864F2EBE1240DAC /* NotificationService.swift */; };
+		1652F4600507CD34017978CE /* GLMProxySecret.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F61CB4C05785B301C95E66B /* GLMProxySecret.txt */; };
+		1966281BB08C0069D963BA93 /* BodyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647C39C75FE053096CF06E7 /* BodyMapView.swift */; };
+		1CD756EBB198AD7360CF2296 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C415E805EBB78ABBA745BF /* CryptoService.swift */; };
+		1F54983369D8EB6469196528 /* MealSnapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76252AFAE4BD5F1D42B23EA1 /* MealSnapView.swift */; };
+		1FF759A37256BBD4DABAAE19 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22B058C602391C9DF931873 /* Compound.swift */; };
+		231B69058285472D12236364 /* TitrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F4955E040B02A3793A947 /* TitrationView.swift */; };
+		25561D3FCF446397F9B440B4 /* DrawGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECB19C513B462098727133 /* DrawGuardTests.swift */; };
+		25C1395D7AAF7AE3C24D4216 /* MedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B68BD95CC34FF1E4357E696 /* MedsView.swift */; };
+		3695CDB4CD5B589196923E7E /* LogShotSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464670251D32C84064B832B2 /* LogShotSheet.swift */; };
+		3C8CCB83519FAD59EAFC50AE /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A932CF32F4915592C4CB2E /* TodayView.swift */; };
+		5AB1E314734554ABA5989D78 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3982D488C4C965707735C99 /* RootTabView.swift */; };
+		5C1C5759CFB11ECFF00CD31B /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC176BEDA333033D008EE3D /* PurchaseManager.swift */; };
+		5F4361CBA50C3D43D291D26E /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268CBC4C51CB0C8929E09479 /* PaywallView.swift */; };
+		6CF1847B89BCF8059ED06525 /* ProgressTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87393E6504C3A5C2EC9FA04 /* ProgressTabView.swift */; };
+		6E8AF6B6E443AD0F1A4327E1 /* AppleOnDeviceAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C47CE4CF22D3C1FC7A8BA /* AppleOnDeviceAI.swift */; };
+		721E0F5E5267D6A19E668170 /* FaceIDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B912FB5D9A30699C3E9B49CE /* FaceIDService.swift */; };
+		7294F883ED430FC56CD5F71D /* AIEngineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C3912756B38D087221CFF0 /* AIEngineView.swift */; };
+		7FDFEDC142C580C48F5FF7D0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66CEA06C80C5B9FF5228B2 /* SettingsView.swift */; };
+		803ADA3290691B621C30EFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DAAEA19F2BE19EF88972533 /* Assets.xcassets */; };
+		828CD58CC91D9162A806BEC7 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70904BF886DEB1895443A5FB /* HealthKitService.swift */; };
+		8638349E28F4A1DFA4D1581D /* ShotJoyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3EE74E26CB4B4E19FBADF6 /* ShotJoyApp.swift */; };
+		8E43B36E8E105B7C94747006 /* GLMCloudService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24172C84BDA7C3BF385E7E23 /* GLMCloudService.swift */; };
+		91C055EE6B303B933EA215F9 /* CompoundPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC21E1B96439B7E3331139E /* CompoundPresets.swift */; };
+		98D2675EA379D39D3031E8EB /* BYOStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B204A1E5E94127522D99D /* BYOStore.swift */; };
+		99577A95A2D83A6618DEC7D9 /* AIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119A15C1C063878971827D9 /* AIRouter.swift */; };
+		9D01A246092D0A39444E0921 /* DoseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BC67C0A194FAE6BF2CCBEC /* DoseLog.swift */; };
+		A2854F9FABF40D8C96A09142 /* ShareCardRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24311EEC5AB28664A4951345 /* ShareCardRenderer.swift */; };
+		A4AEBF1D81246DEFABAA2B74 /* PlasmaCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71A8C7E83FA0DD6A797669A /* PlasmaCurve.swift */; };
+		A74B774ED4EC7AC67059B564 /* DrawGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9A0A4FA213EFADCA6D0A6A /* DrawGuard.swift */; };
+		ABD2A44BD4887A06528E14A2 /* PDFReportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D791111D49A6DD4766506 /* PDFReportService.swift */; };
+		AF9A2FC57B05D81D7AC0669D /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018BB9C33738CAB33D21028 /* AppTheme.swift */; };
+		B45597CD151ED92DD9FF3E40 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA22DBB02A329C0D3FFF0E /* CalculatorView.swift */; };
+		C16840E342949C512FA9D196 /* WeeklyReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198000B2D2DC36C137E6194D /* WeeklyReportView.swift */; };
+		CDCBA2B3AA127A437462BB95 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017D2E1512AF50EA4A04129 /* OnboardingView.swift */; };
+		DDBBE21B6FA774AF24835633 /* VialSnapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171A8F314F031D6E46D8157 /* VialSnapView.swift */; };
+		EBB7AB5C8BBAB64E1EEF83BC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3974DC206784AF63F94A3291 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE0D215B73E6CD44AEE5BCB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 861FA9172C417420345CD9A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AFDD4AA80A74F5A8CA7EFFC;
+			remoteInfo = ShotJoy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1171A8F314F031D6E46D8157 /* VialSnapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VialSnapView.swift; sourceTree = "<group>"; };
+		172638ECE1041482CC6E2DAB /* ShotJoyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ShotJoyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		198000B2D2DC36C137E6194D /* WeeklyReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyReportView.swift; sourceTree = "<group>"; };
+		1D2B204A1E5E94127522D99D /* BYOStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYOStore.swift; sourceTree = "<group>"; };
+		1DAAEA19F2BE19EF88972533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DC176BEDA333033D008EE3D /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		1F61CB4C05785B301C95E66B /* GLMProxySecret.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLMProxySecret.txt; sourceTree = "<group>"; };
+		24172C84BDA7C3BF385E7E23 /* GLMCloudService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMCloudService.swift; sourceTree = "<group>"; };
+		24311EEC5AB28664A4951345 /* ShareCardRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardRenderer.swift; sourceTree = "<group>"; };
+		268CBC4C51CB0C8929E09479 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		317D791111D49A6DD4766506 /* PDFReportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReportService.swift; sourceTree = "<group>"; };
+		33AB77212D95C50261EBCE72 /* ShotJoy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShotJoy.entitlements; sourceTree = "<group>"; };
+		36DA22DBB02A329C0D3FFF0E /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		3974DC206784AF63F94A3291 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3A3EE74E26CB4B4E19FBADF6 /* ShotJoyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotJoyApp.swift; sourceTree = "<group>"; };
+		3F7C47CE4CF22D3C1FC7A8BA /* AppleOnDeviceAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleOnDeviceAI.swift; sourceTree = "<group>"; };
+		40BC67C0A194FAE6BF2CCBEC /* DoseLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseLog.swift; sourceTree = "<group>"; };
+		4119A15C1C063878971827D9 /* AIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIRouter.swift; sourceTree = "<group>"; };
+		464670251D32C84064B832B2 /* LogShotSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogShotSheet.swift; sourceTree = "<group>"; };
+		49835FB72D6CCA9A4BC558C3 /* DrawGuardResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGuardResultCard.swift; sourceTree = "<group>"; };
+		5018BB9C33738CAB33D21028 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		53F88A7BF538FF5A48BD87AE /* ContactSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupportView.swift; sourceTree = "<group>"; };
+		70904BF886DEB1895443A5FB /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		74A932CF32F4915592C4CB2E /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		76252AFAE4BD5F1D42B23EA1 /* MealSnapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSnapView.swift; sourceTree = "<group>"; };
+		76ECB19C513B462098727133 /* DrawGuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGuardTests.swift; sourceTree = "<group>"; };
+		7D66CEA06C80C5B9FF5228B2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8647C39C75FE053096CF06E7 /* BodyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMapView.swift; sourceTree = "<group>"; };
+		8B68BD95CC34FF1E4357E696 /* MedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedsView.swift; sourceTree = "<group>"; };
+		9F2257844864F2EBE1240DAC /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A3982D488C4C965707735C99 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		B278E90A48832777FAA80C0B /* HealthKitInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitInfoView.swift; sourceTree = "<group>"; };
+		B912FB5D9A30699C3E9B49CE /* FaceIDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDService.swift; sourceTree = "<group>"; };
+		C22B058C602391C9DF931873 /* Compound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compound.swift; sourceTree = "<group>"; };
+		D3C415E805EBB78ABBA745BF /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		DB9A0A4FA213EFADCA6D0A6A /* DrawGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGuard.swift; sourceTree = "<group>"; };
+		DCC21E1B96439B7E3331139E /* CompoundPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundPresets.swift; sourceTree = "<group>"; };
+		F017D2E1512AF50EA4A04129 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F5C3912756B38D087221CFF0 /* AIEngineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIEngineView.swift; sourceTree = "<group>"; };
+		F71A8C7E83FA0DD6A797669A /* PlasmaCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasmaCurve.swift; sourceTree = "<group>"; };
+		F87393E6504C3A5C2EC9FA04 /* ProgressTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTabView.swift; sourceTree = "<group>"; };
+		FA3B6B91811962CA29189991 /* ShotJoy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ShotJoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1F4955E040B02A3793A947 /* TitrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitrationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		072C4370B426855B018ACDF8 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				268CBC4C51CB0C8929E09479 /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		10989D5AA5120F8A66D3AA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B6B91811962CA29189991 /* ShotJoy.app */,
+				172638ECE1041482CC6E2DAB /* ShotJoyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15573A8E5862CC33E7DEBED3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5018BB9C33738CAB33D21028 /* AppTheme.swift */,
+				3A3EE74E26CB4B4E19FBADF6 /* ShotJoyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3200EF195A218DBE4C198C9B /* SnapLog */ = {
+			isa = PBXGroup;
+			children = (
+				76252AFAE4BD5F1D42B23EA1 /* MealSnapView.swift */,
+				1171A8F314F031D6E46D8157 /* VialSnapView.swift */,
+			);
+			path = SnapLog;
+			sourceTree = "<group>";
+		};
+		488400A71F7B5A0BE764294B /* ShotJoyTests */ = {
+			isa = PBXGroup;
+			children = (
+				76ECB19C513B462098727133 /* DrawGuardTests.swift */,
+			);
+			path = ShotJoyTests;
+			sourceTree = "<group>";
+		};
+		54190F682C548FC9A1E0410E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F5C3912756B38D087221CFF0 /* AIEngineView.swift */,
+				53F88A7BF538FF5A48BD87AE /* ContactSupportView.swift */,
+				B278E90A48832777FAA80C0B /* HealthKitInfoView.swift */,
+				7D66CEA06C80C5B9FF5228B2 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5744460A4A950225FB4F121D /* ShotJoy */ = {
+			isa = PBXGroup;
+			children = (
+				1DAAEA19F2BE19EF88972533 /* Assets.xcassets */,
+				1F61CB4C05785B301C95E66B /* GLMProxySecret.txt */,
+				3974DC206784AF63F94A3291 /* PrivacyInfo.xcprivacy */,
+				33AB77212D95C50261EBCE72 /* ShotJoy.entitlements */,
+				15573A8E5862CC33E7DEBED3 /* App */,
+				7802BB4DDB331C542FF104E7 /* Engine */,
+				D678B1879498CFF812175AFA /* Models */,
+				6DA85ACF8DD0299DF6ABF1B7 /* Services */,
+				79E83C67486CF04E2C325831 /* Views */,
+			);
+			path = ShotJoy;
+			sourceTree = "<group>";
+		};
+		5B15A26938AAE4251FD53CFC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F017D2E1512AF50EA4A04129 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		5BEFCAEBD3D187625BC1E45C /* Meds */ = {
+			isa = PBXGroup;
+			children = (
+				8B68BD95CC34FF1E4357E696 /* MedsView.swift */,
+				FF1F4955E040B02A3793A947 /* TitrationView.swift */,
+			);
+			path = Meds;
+			sourceTree = "<group>";
+		};
+		6DA85ACF8DD0299DF6ABF1B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4119A15C1C063878971827D9 /* AIRouter.swift */,
+				3F7C47CE4CF22D3C1FC7A8BA /* AppleOnDeviceAI.swift */,
+				1D2B204A1E5E94127522D99D /* BYOStore.swift */,
+				D3C415E805EBB78ABBA745BF /* CryptoService.swift */,
+				B912FB5D9A30699C3E9B49CE /* FaceIDService.swift */,
+				24172C84BDA7C3BF385E7E23 /* GLMCloudService.swift */,
+				70904BF886DEB1895443A5FB /* HealthKitService.swift */,
+				9F2257844864F2EBE1240DAC /* NotificationService.swift */,
+				317D791111D49A6DD4766506 /* PDFReportService.swift */,
+				1DC176BEDA333033D008EE3D /* PurchaseManager.swift */,
+				24311EEC5AB28664A4951345 /* ShareCardRenderer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7802BB4DDB331C542FF104E7 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				DB9A0A4FA213EFADCA6D0A6A /* DrawGuard.swift */,
+				F71A8C7E83FA0DD6A797669A /* PlasmaCurve.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		79E83C67486CF04E2C325831 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3982D488C4C965707735C99 /* RootTabView.swift */,
+				D97677A91FE0FA10D8A73312 /* BodyMap */,
+				BE823E336677F2509034FDBB /* DrawGuard */,
+				C5B84BC4B7C563B910DBCF7E /* Insights */,
+				5BEFCAEBD3D187625BC1E45C /* Meds */,
+				5B15A26938AAE4251FD53CFC /* Onboarding */,
+				072C4370B426855B018ACDF8 /* Paywall */,
+				8DC5297E7D84E022F4B2952C /* Progress */,
+				54190F682C548FC9A1E0410E /* Settings */,
+				3200EF195A218DBE4C198C9B /* SnapLog */,
+				C3D05D9CB00EE64CBD545E74 /* Today */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8DC5297E7D84E022F4B2952C /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				F87393E6504C3A5C2EC9FA04 /* ProgressTabView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		BE823E336677F2509034FDBB /* DrawGuard */ = {
+			isa = PBXGroup;
+			children = (
+				36DA22DBB02A329C0D3FFF0E /* CalculatorView.swift */,
+				49835FB72D6CCA9A4BC558C3 /* DrawGuardResultCard.swift */,
+			);
+			path = DrawGuard;
+			sourceTree = "<group>";
+		};
+		C3D05D9CB00EE64CBD545E74 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				464670251D32C84064B832B2 /* LogShotSheet.swift */,
+				74A932CF32F4915592C4CB2E /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		C5B84BC4B7C563B910DBCF7E /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				198000B2D2DC36C137E6194D /* WeeklyReportView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		CCCC0912C7E62C817A4362F6 = {
+			isa = PBXGroup;
+			children = (
+				5744460A4A950225FB4F121D /* ShotJoy */,
+				488400A71F7B5A0BE764294B /* ShotJoyTests */,
+				10989D5AA5120F8A66D3AA80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D678B1879498CFF812175AFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C22B058C602391C9DF931873 /* Compound.swift */,
+				DCC21E1B96439B7E3331139E /* CompoundPresets.swift */,
+				40BC67C0A194FAE6BF2CCBEC /* DoseLog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D97677A91FE0FA10D8A73312 /* BodyMap */ = {
+			isa = PBXGroup;
+			children = (
+				8647C39C75FE053096CF06E7 /* BodyMapView.swift */,
+			);
+			path = BodyMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D08C06DBED4D45D771F2DC7 /* ShotJoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC85BBE6B7D6724BD2B888EA /* Build configuration list for PBXNativeTarget "ShotJoyTests" */;
+			buildPhases = (
+				44F470F5D369EAA705E0E66C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FDB731F5B67B8F402D44465 /* PBXTargetDependency */,
+			);
+			name = ShotJoyTests;
+			packageProductDependencies = (
+			);
+			productName = ShotJoyTests;
+			productReference = 172638ECE1041482CC6E2DAB /* ShotJoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AFDD4AA80A74F5A8CA7EFFC /* ShotJoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA60DE96092BC94225A7AEC6 /* Build configuration list for PBXNativeTarget "ShotJoy" */;
+			buildPhases = (
+				1D3727E8F6734034521C7F63 /* Sources */,
+				DD4C0184E363DBC2A05507BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShotJoy;
+			packageProductDependencies = (
+			);
+			productName = ShotJoy;
+			productReference = FA3B6B91811962CA29189991 /* ShotJoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		861FA9172C417420345CD9A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1D08C06DBED4D45D771F2DC7 = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+					6AFDD4AA80A74F5A8CA7EFFC = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D9F146DB4EF089186ADAD9C /* Build configuration list for PBXProject "ShotJoy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CCCC0912C7E62C817A4362F6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AFDD4AA80A74F5A8CA7EFFC /* ShotJoy */,
+				1D08C06DBED4D45D771F2DC7 /* ShotJoyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4C0184E363DBC2A05507BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803ADA3290691B621C30EFB1 /* Assets.xcassets in Resources */,
+				1652F4600507CD34017978CE /* GLMProxySecret.txt in Resources */,
+				EBB7AB5C8BBAB64E1EEF83BC /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D3727E8F6734034521C7F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7294F883ED430FC56CD5F71D /* AIEngineView.swift in Sources */,
+				99577A95A2D83A6618DEC7D9 /* AIRouter.swift in Sources */,
+				AF9A2FC57B05D81D7AC0669D /* AppTheme.swift in Sources */,
+				6E8AF6B6E443AD0F1A4327E1 /* AppleOnDeviceAI.swift in Sources */,
+				98D2675EA379D39D3031E8EB /* BYOStore.swift in Sources */,
+				1966281BB08C0069D963BA93 /* BodyMapView.swift in Sources */,
+				B45597CD151ED92DD9FF3E40 /* CalculatorView.swift in Sources */,
+				1FF759A37256BBD4DABAAE19 /* Compound.swift in Sources */,
+				91C055EE6B303B933EA215F9 /* CompoundPresets.swift in Sources */,
+				015F9E5FC628D63E22F787EE /* ContactSupportView.swift in Sources */,
+				1CD756EBB198AD7360CF2296 /* CryptoService.swift in Sources */,
+				9D01A246092D0A39444E0921 /* DoseLog.swift in Sources */,
+				A74B774ED4EC7AC67059B564 /* DrawGuard.swift in Sources */,
+				06099CFB39D96CDAF0FD6527 /* DrawGuardResultCard.swift in Sources */,
+				721E0F5E5267D6A19E668170 /* FaceIDService.swift in Sources */,
+				8E43B36E8E105B7C94747006 /* GLMCloudService.swift in Sources */,
+				0E3BB90BE03A996F02351CF1 /* HealthKitInfoView.swift in Sources */,
+				828CD58CC91D9162A806BEC7 /* HealthKitService.swift in Sources */,
+				3695CDB4CD5B589196923E7E /* LogShotSheet.swift in Sources */,
+				1F54983369D8EB6469196528 /* MealSnapView.swift in Sources */,
+				25C1395D7AAF7AE3C24D4216 /* MedsView.swift in Sources */,
+				0E65458DE919354285685FC4 /* NotificationService.swift in Sources */,
+				CDCBA2B3AA127A437462BB95 /* OnboardingView.swift in Sources */,
+				ABD2A44BD4887A06528E14A2 /* PDFReportService.swift in Sources */,
+				5F4361CBA50C3D43D291D26E /* PaywallView.swift in Sources */,
+				A4AEBF1D81246DEFABAA2B74 /* PlasmaCurve.swift in Sources */,
+				6CF1847B89BCF8059ED06525 /* ProgressTabView.swift in Sources */,
+				5C1C5759CFB11ECFF00CD31B /* PurchaseManager.swift in Sources */,
+				5AB1E314734554ABA5989D78 /* RootTabView.swift in Sources */,
+				7FDFEDC142C580C48F5FF7D0 /* SettingsView.swift in Sources */,
+				A2854F9FABF40D8C96A09142 /* ShareCardRenderer.swift in Sources */,
+				8638349E28F4A1DFA4D1581D /* ShotJoyApp.swift in Sources */,
+				231B69058285472D12236364 /* TitrationView.swift in Sources */,
+				3C8CCB83519FAD59EAFC50AE /* TodayView.swift in Sources */,
+				DDBBE21B6FA774AF24835633 /* VialSnapView.swift in Sources */,
+				C16840E342949C512FA9D196 /* WeeklyReportView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44F470F5D369EAA705E0E66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25561D3FCF446397F9B440B4 /* DrawGuardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FDB731F5B67B8F402D44465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AFDD4AA80A74F5A8CA7EFFC /* ShotJoy */;
+			targetProxy = BE0D215B73E6CD44AEE5BCB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59343B0F2D6E4CCA47461682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		80D286944F75C556EC18C116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShotJoy/ShotJoy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EXCLUDED_SOURCE_FILE_NAMES = GLMProxySecret.txt;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShotJoy;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ShotJoy uses the camera to scan vial labels and log meals. Photos are processed in memory only and never stored.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "ShotJoy uses Face ID to protect your private health records.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "ShotJoy reads weight, sleep and steps from Apple Health to show your progress trends.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "ShotJoy saves your weight logs to Apple Health to keep your health records in one place.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "remote-notification";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ShotJoy;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		901538C94F1E09C9FE818708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		CAE407ADBE848D3CA886CE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ShotJoyTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShotJoy.app/ShotJoy";
+			};
+			name = Debug;
+		};
+		E289E92F2030BBD60575454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShotJoy/ShotJoy.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShotJoy;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ShotJoy uses the camera to scan vial labels and log meals. Photos are processed in memory only and never stored.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "ShotJoy uses Face ID to protect your private health records.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "ShotJoy reads weight, sleep and steps from Apple Health to show your progress trends.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "ShotJoy saves your weight logs to Apple Health to keep your health records in one place.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "remote-notification";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ShotJoy;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0A069C2A8E69FF3FE8BBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.ShotJoyTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShotJoy.app/ShotJoy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D9F146DB4EF089186ADAD9C /* Build configuration list for PBXProject "ShotJoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59343B0F2D6E4CCA47461682 /* Debug */,
+				901538C94F1E09C9FE818708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC85BBE6B7D6724BD2B888EA /* Build configuration list for PBXNativeTarget "ShotJoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE407ADBE848D3CA886CE82 /* Debug */,
+				FB0A069C2A8E69FF3FE8BBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA60DE96092BC94225A7AEC6 /* Build configuration list for PBXNativeTarget "ShotJoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E289E92F2030BBD60575454E /* Debug */,
+				80D286944F75C556EC18C116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 861FA9172C417420345CD9A4 /* Project object */;
+}

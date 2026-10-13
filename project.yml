@@ -1,0 +1,67 @@
+name: ShotJoy
+options:
+  bundleIdPrefix: com.zzoutuo
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: JP4TN5PTS3
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: "Apple Development"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  ShotJoy:
+    type: application
+    platform: iOS
+    sources:
+      - ShotJoy
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zzoutuo.ShotJoy
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: ShotJoy
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_NSCameraUsageDescription: "ShotJoy uses the camera to scan vial labels and log meals. Photos are processed in memory only and never stored."
+        INFOPLIST_KEY_NSFaceIDUsageDescription: "ShotJoy uses Face ID to protect your private health records."
+        INFOPLIST_KEY_NSHealthShareUsageDescription: "ShotJoy reads weight, sleep and steps from Apple Health to show your progress trends."
+        INFOPLIST_KEY_NSHealthUpdateUsageDescription: "ShotJoy saves your weight logs to Apple Health to keep your health records in one place."
+        INFOPLIST_KEY_UIBackgroundModes: remote-notification
+      configs:
+        Release:
+          EXCLUDED_SOURCE_FILE_NAMES: GLMProxySecret.txt
+    entitlements:
+      path: ShotJoy/ShotJoy.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        aps-environment: development
+        com.apple.developer.icloud-services:
+          - CloudKit
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.com.zzoutuo.ShotJoy
+        com.apple.developer.ubiquity-kvstore-identifier: $(TeamIdentifierPrefix)$(CFBundleIdentifier)
+  ShotJoyTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - ShotJoyTests
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.zzoutuo.ShotJoyTests
+    dependencies:
+      - target: ShotJoy
+schemes:
+  ShotJoy:
+    build:
+      targets:
+        ShotJoy: all
+    test:
+      targets:
+        - ShotJoyTests
