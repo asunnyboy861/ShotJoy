@@ -9,6 +9,9 @@ struct MedsView: View {
     @State private var showCalculator = false
     @State private var showVialSnap = false
     @State private var showAddCompound = false
+    @State private var showPaywall = false
+    @State private var showTitration = false
+    @StateObject private var purchaseManager = PurchaseManager.shared
 
     var body: some View {
         NavigationStack {
@@ -28,6 +31,8 @@ struct MedsView: View {
             .sheet(isPresented: $showCalculator) { NavigationStack { CalculatorView() } }
             .sheet(isPresented: $showVialSnap) { VialSnapView() }
             .sheet(isPresented: $showAddCompound) { AddCompoundSheet() }
+            .sheet(isPresented: $showPaywall) { PaywallView() }
+            .sheet(isPresented: $showTitration) { NavigationStack { TitrationView() } }
         }
     }
 
@@ -35,8 +40,12 @@ struct MedsView: View {
         HStack(spacing: 12) {
             QuickActionButton(title: "DrawGuard", icon: "function") { showCalculator = true }
             QuickActionButton(title: "Scan vial", icon: "camera.viewfinder") { showVialSnap = true }
-            NavigationLink {
-                TitrationView()
+            Button {
+                if purchaseManager.isPro {
+                    showTitration = true
+                } else {
+                    showPaywall = true
+                }
             } label: {
                 VStack(spacing: 8) {
                     Image(systemName: "calendar.badge.plus")
@@ -50,7 +59,7 @@ struct MedsView: View {
                 .background(AppTheme.cardBackground, in: RoundedRectangle(cornerRadius: 16))
             }
             .buttonStyle(.plain)
-            .accessibilityLabel("Titration mode")
+            .accessibilityLabel("Titration mode, Pro feature")
         }
     }
 

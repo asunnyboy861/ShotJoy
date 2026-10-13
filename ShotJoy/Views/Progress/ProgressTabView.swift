@@ -119,7 +119,11 @@ struct ProgressTabView: View {
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
             Button {
-                exportPDF()
+                if purchaseManager.isPro {
+                    exportPDF()
+                } else {
+                    showPaywall = true
+                }
             } label: {
                 Label("Export PDF report", systemImage: "square.and.arrow.up")
             }
