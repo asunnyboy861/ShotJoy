@@ -180,13 +180,13 @@ struct SettingsView: View {
 
     private var legalSection: some View {
         Section {
-            Link(destination: URL(string: "https://asunnyboy861.github.io/shotjoy/support.html")!) {
+            Link(destination: URL(string: "https://asunnyboy861.github.io/ShotJoy/support.html")!) {
                 Label("Support", systemImage: "questionmark.circle")
             }
-            Link(destination: URL(string: "https://asunnyboy861.github.io/shotjoy/privacy.html")!) {
+            Link(destination: URL(string: "https://asunnyboy861.github.io/ShotJoy/privacy.html")!) {
                 Label("Privacy Policy", systemImage: "hand.raised")
             }
-            Link(destination: URL(string: "https://asunnyboy861.github.io/shotjoy/terms.html")!) {
+            Link(destination: URL(string: "https://asunnyboy861.github.io/ShotJoy/terms.html")!) {
                 Label("Terms of Use", systemImage: "doc.text")
             }
             NavigationLink(destination: PricingTransparencyView()) {

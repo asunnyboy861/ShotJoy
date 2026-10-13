@@ -108,9 +108,9 @@ struct PaywallView: View {
 
     private var legalLinks: some View {
         HStack(spacing: 16) {
-            Link("Privacy Policy", destination: URL(string: "https://asunnyboy861.github.io/shotjoy/privacy.html")!)
-            Link("Terms of Use", destination: URL(string: "https://asunnyboy861.github.io/shotjoy/terms.html")!)
-            Link("Support", destination: URL(string: "https://asunnyboy861.github.io/shotjoy/support.html")!)
+            Link("Privacy Policy", destination: URL(string: "https://asunnyboy861.github.io/ShotJoy/privacy.html")!)
+            Link("Terms of Use", destination: URL(string: "https://asunnyboy861.github.io/ShotJoy/terms.html")!)
+            Link("Support", destination: URL(string: "https://asunnyboy861.github.io/ShotJoy/support.html")!)
         }
         .font(.caption2)
         .tint(AppTheme.coral)

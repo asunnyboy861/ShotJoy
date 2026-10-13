@@ -24,9 +24,9 @@
 - Free tier is genuinely usable without any purchase: calculator, logging, body map, reminders, inventory, symptoms, goals, HealthKit, on-device AI (5/day).
 
 ### Required Links (In-App)
-- Privacy Policy: https://asunnyboy861.github.io/shotjoy/privacy.html
-- Terms of Use: https://asunnyboy861.github.io/shotjoy/terms.html
-- Support Page: https://asunnyboy861.github.io/shotjoy/support.html
+- Privacy Policy: https://asunnyboy861.github.io/ShotJoy/privacy.html
+- Terms of Use: https://asunnyboy861.github.io/ShotJoy/terms.html
+- Support Page: https://asunnyboy861.github.io/ShotJoy/support.html
 
 These links are accessible from: Settings → Legal & Support, and inside the Paywall below the purchase options.
 

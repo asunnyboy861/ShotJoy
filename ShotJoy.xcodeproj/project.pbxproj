@@ -531,6 +531,7 @@
 				EXCLUDED_SOURCE_FILE_NAMES = GLMProxySecret.txt;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ShotJoy;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSCameraUsageDescription = "ShotJoy uses the camera to scan vial labels and log meals. Photos are processed in memory only and never stored.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "ShotJoy uses Face ID to protect your private health records.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "ShotJoy reads weight, sleep and steps from Apple Health to show your progress trends.";
@@ -635,6 +636,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ShotJoy;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSCameraUsageDescription = "ShotJoy uses the camera to scan vial labels and log meals. Photos are processed in memory only and never stored.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "ShotJoy uses Face ID to protect your private health records.";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "ShotJoy reads weight, sleep and steps from Apple Health to show your progress trends.";

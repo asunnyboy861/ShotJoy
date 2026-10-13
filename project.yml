@@ -33,6 +33,7 @@ targets:
         INFOPLIST_KEY_NSHealthShareUsageDescription: "ShotJoy reads weight, sleep and steps from Apple Health to show your progress trends."
         INFOPLIST_KEY_NSHealthUpdateUsageDescription: "ShotJoy saves your weight logs to Apple Health to keep your health records in one place."
         INFOPLIST_KEY_UIBackgroundModes: remote-notification
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
       configs:
         Release:
           EXCLUDED_SOURCE_FILE_NAMES: GLMProxySecret.txt
